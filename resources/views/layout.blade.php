@@ -26,6 +26,7 @@
                 <a href="{{ route('home') }}" class="nav-item nav-link">Home</a>
                 <a href="{{ route('categoria') }}" class="nav-item nav-link">Categorias</a>
                 <a href="{{ route('cadastrar') }}" class="nav-item nav-link">Cadastrar</a>
+                <a href="{{ route('logar') }}" class="nav-item nav-link">Logar</a>
             </div>
         </div>
         <a href="{{ route('ver_carrinho') }}" class="btn btn-sm"><i class="fa fa-shopping-cart"></i></a>

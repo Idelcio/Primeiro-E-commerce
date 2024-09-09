@@ -2,7 +2,7 @@
 @section('conteudo')
     <h3>Carrinho</h3>
 
-    @if (isset($cart) && count($cart) > 0)
+    @if (isset($cart) && count($cart) > 0) // Verifica se existe itens no carrinho
         <table class="table">
             <thead>
                 <tr>
