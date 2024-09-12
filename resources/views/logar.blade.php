@@ -4,16 +4,17 @@
     <div class="col-12">
         <h2 class="mb-3">Logar</h2>
         <form action="{{ route('logar') }}" method="post">
-            @csrf
+                @csrf
             <div class="form-group">
-                <label for="cpf">Login</label>
-                <input type="cpf" class="form-control" id="cpf" name="cpf" required>
+                Login:
+                <input type="text" name="login" class="form-control">
             </div>
+
             <div class="form-group">
-                <label for="senha">Senha</label>
-                <input type="password" class="form-control" id="senha" name="senha" required>
+                Senha:
+                <input type="password" name="senha" class="form-control">
             </div>
-            <button type="submit" class="btn btn-primary">Logar</button>
+                <input type="submit" value="Logar" class="btn btn-lg btn-primary" >
         </form>
     </div>
 @endsection
